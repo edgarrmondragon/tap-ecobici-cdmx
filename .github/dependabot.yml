@@ -16,6 +16,7 @@ updates:
     directory: "/.github/workflows"
     schedule:
       time: "20:27"
+      interval: "daily"
     reviewers:
       - "edgarrmondragon"
   - package-ecosystem: github-actions

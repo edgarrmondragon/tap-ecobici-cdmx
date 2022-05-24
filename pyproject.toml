@@ -15,11 +15,11 @@ repository = "https://github.com/edgarrmondragon/tap-ecobici-cdmx"
 documentation = "https://github.com/edgarrmondragon/tap-ecobici-cdmx#readme"
 
 [tool.poetry.dependencies]
-python = "<3.11,>=3.6.2"
-singer-sdk = "0.3.17"
+python = "<3.11,>=3.7.1"
+singer-sdk = "0.5.0"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^21.12b0", allow-prereleases = true}
+black = "^22.3.0"
 isort = "^5.10.1"
 mypy = ">=0.930"
 pytest = "^6.2.5"
